@@ -70,9 +70,12 @@ body {
 /*--------------------------------*/
 
 .tools-container {
-  max-width: 590px;
+  height: fit-content;
+  max-width: 540px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
+  padding: 0.5rem;
 }
 
 /* Rounds */
@@ -621,7 +624,6 @@ body {
   }
 
   .parts-container {
-
     display: block;
     margin-top: 4px;
     padding: 0px;
