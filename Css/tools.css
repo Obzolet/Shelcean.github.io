@@ -1,5 +1,6 @@
 body {
   background:rgba(192, 127, 90, 0.68);
+  min-width:600px;
 }
 
 /*--------------------------------*/
@@ -347,6 +348,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 /*
 .card-energy-container-grid {
   display: grid;
@@ -393,29 +395,31 @@ body {
   transition: 0.5;
 }
 
-.mouth {
-  display: flex;
+/* LA UNICA SOLUCION ES reacomodar todo en div (lo complicado es que todo va en columna)*/
+
+.mouth { 
+  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
 }
 
 .horn {
-  display: flex;
+  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
 }
 
 .back {
-  display: flex;
+  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
 }
 
 .tail {
-  display: flex;
+  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
@@ -631,4 +635,5 @@ body {
     box-sizing: border-box;
     border: 4px solid #5d330b;
   }
+
 }
