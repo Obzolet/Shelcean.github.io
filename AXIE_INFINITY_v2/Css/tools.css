@@ -632,5 +632,6 @@ body {
   body{
     margin: auto;
     margin-top: 5px;
+    zoom: 100%;
    }
 }
