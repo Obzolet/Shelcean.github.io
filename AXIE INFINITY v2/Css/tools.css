@@ -1,6 +1,5 @@
 body {
   background:rgba(192, 127, 90, 0.68);
-  min-width:600px;
 }
 
 /*--------------------------------*/
@@ -71,12 +70,10 @@ body {
 /*--------------------------------*/
 
 .tools-container {
-  height: fit-content;
-  max-width: 540px;
+  width: 464px;
+
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  padding: 0.5rem;
 }
 
 /* Rounds */
@@ -348,7 +345,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
 /*
 .card-energy-container-grid {
   display: grid;
@@ -395,31 +391,29 @@ body {
   transition: 0.5;
 }
 
-/* LA UNICA SOLUCION ES reacomodar todo en div (lo complicado es que todo va en columna)*/
-
-.mouth { 
-  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
+.mouth {
+  display: flex;
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
 }
 
 .horn {
-  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
+  display: flex;
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
 }
 
 .back {
-  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
+  display: flex;
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
 }
 
 .tail {
-  display: flex; /* esto es lo que genera el problema para colocar el tamaño de los botones en % */
+  display: flex;
   gap: 0.5rem;
   justify-content: center;
   margin-bottom: 0.2rem;
@@ -635,5 +629,8 @@ body {
     box-sizing: border-box;
     border: 4px solid #5d330b;
   }
-
+  body{
+    margin: auto;
+    margin-top: 5px;
+   }
 }
