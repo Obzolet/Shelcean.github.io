@@ -1345,6 +1345,7 @@ function resetA1Parts() {
   document.getElementById("a1hCounter").innerHTML = axie1horn;
   document.getElementById("a1bCounter").innerHTML = axie1back;
   document.getElementById("a1tCounter").innerHTML = axie1tail;
+  actualizar();
 }
 
 function resetA2Parts() {
@@ -1403,6 +1404,7 @@ function resetA2Parts() {
   document.getElementById("a2hCounter").innerHTML = axie2horn;
   document.getElementById("a2bCounter").innerHTML = axie2back;
   document.getElementById("a2tCounter").innerHTML = axie2tail;
+  actualizar();
 }
 
 function resetA3Parts() {
@@ -1461,6 +1463,7 @@ function resetA3Parts() {
   document.getElementById("a3hCounter").innerHTML = axie3horn;
   document.getElementById("a3bCounter").innerHTML = axie3back;
   document.getElementById("a3tCounter").innerHTML = axie3tail;
+  actualizar();
 }
 
 function killAxie1() {
