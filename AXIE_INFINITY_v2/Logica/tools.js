@@ -645,19 +645,19 @@ function axie1ColorAndParts(axie1Selection) {
       document.getElementById("axie1_" + axie1class).style.backgroundColor = "#fff";
       axie1class = "mech";
       document.getElementById("axie1_" + axie1class).style.backgroundColor = "#242735";
-      document.getElementById("axie1Grid").style.backgroundColor = "#c7bdd3";
+      document.getElementById("axie1Grid").style.backgroundColor = "#a5969c";
       //BOCA
-      $("#p1_1", $("#boca_1")).attr('style', "fill:#c7bdd3");
-      $("#p1_3", $("#boca_1")).attr('style', "fill:#c7bdd3");
+      $("#p1_1", $("#boca_1")).attr('style', "fill:#a5969c");
+      $("#p1_3", $("#boca_1")).attr('style', "fill:#a5969c");
       //CUERNO
-      $("#p2_1", $("#cuerno_1")).attr('style', "fill:#c7bdd3");
-      $("#p2_3", $("#cuerno_1")).attr('style', "fill:#c7bdd3");
+      $("#p2_1", $("#cuerno_1")).attr('style', "fill:#a5969c");
+      $("#p2_3", $("#cuerno_1")).attr('style', "fill:#a5969c");
       //ESPALDA
-      $("#p3_1", $("#espalda_1")).attr('style', "fill:#c7bdd3");
-      $("#p3_3", $("#espalda_1")).attr('style', "fill:#c7bdd3");
+      $("#p3_1", $("#espalda_1")).attr('style', "fill:#a5969c");
+      $("#p3_3", $("#espalda_1")).attr('style', "fill:#a5969c");
       //COLA
-      $("#p4_1", $("#cola_1")).attr('style', "fill:#c7bdd3");
-      $("#p4_3", $("#cola_1")).attr('style', "fill:#c7bdd3");
+      $("#p4_1", $("#cola_1")).attr('style', "fill:#a5969c");
+      $("#p4_3", $("#cola_1")).attr('style', "fill:#a5969c");
       break;
     case "reptile":
       document.getElementById("axie1_" + axie1class).style.backgroundColor = "#fff";
@@ -817,19 +817,19 @@ function axie2ColorAndParts(axie2Selection) {
       document.getElementById("axie2_" + axie2class).style.backgroundColor = "#fff";
       axie2class = "mech";
       document.getElementById("axie2_" + axie2class).style.backgroundColor = "#242735";
-      document.getElementById("axie2Grid").style.backgroundColor = "#c7bdd3";
+      document.getElementById("axie2Grid").style.backgroundColor = "#a5969c";
       //BOCA
-      $("#p1_1", $("#boca_2")).attr('style', "fill:#c7bdd3");
-      $("#p1_3", $("#boca_2")).attr('style', "fill:#c7bdd3");
+      $("#p1_1", $("#boca_2")).attr('style', "fill:#a5969c");
+      $("#p1_3", $("#boca_2")).attr('style', "fill:#a5969c");
       //CUERNO
-      $("#p2_1", $("#cuerno_2")).attr('style', "fill:#c7bdd3");
-      $("#p2_3", $("#cuerno_2")).attr('style', "fill:#c7bdd3");
+      $("#p2_1", $("#cuerno_2")).attr('style', "fill:#a5969c");
+      $("#p2_3", $("#cuerno_2")).attr('style', "fill:#a5969c");
       //ESPALDA
-      $("#p3_1", $("#espalda_2")).attr('style', "fill:#c7bdd3");
-      $("#p3_3", $("#espalda_2")).attr('style', "fill:#c7bdd3");
+      $("#p3_1", $("#espalda_2")).attr('style', "fill:#a5969c");
+      $("#p3_3", $("#espalda_2")).attr('style', "fill:#a5969c");
       //COLA
-      $("#p4_1", $("#cola_2")).attr('style', "fill:#c7bdd3");
-      $("#p4_3", $("#cola_2")).attr('style', "fill:#c7bdd3");
+      $("#p4_1", $("#cola_2")).attr('style', "fill:#a5969c");
+      $("#p4_3", $("#cola_2")).attr('style', "fill:#a5969c");
       break;
     case "reptile":
       document.getElementById("axie2_" + axie2class).style.backgroundColor = "#fff";
@@ -989,19 +989,19 @@ function axie3ColorAndParts(axie3Selection) {
       document.getElementById("axie3_" + axie3class).style.backgroundColor = "#fff";
       axie3class = "mech";
       document.getElementById("axie3_" + axie3class).style.backgroundColor = "#242735";
-      document.getElementById("axie3Grid").style.backgroundColor = "#c7bdd3";
+      document.getElementById("axie3Grid").style.backgroundColor = "#a5969c";
       //BOCA
-      $("#p1_1", $("#boca_3")).attr('style', "fill:#c7bdd3");
-      $("#p1_3", $("#boca_3")).attr('style', "fill:#c7bdd3");
+      $("#p1_1", $("#boca_3")).attr('style', "fill:#a5969c");
+      $("#p1_3", $("#boca_3")).attr('style', "fill:#a5969c");
       //CUERNO
-      $("#p2_1", $("#cuerno_3")).attr('style', "fill:#c7bdd3");
-      $("#p2_3", $("#cuerno_3")).attr('style', "fill:#c7bdd3");
+      $("#p2_1", $("#cuerno_3")).attr('style', "fill:#a5969c");
+      $("#p2_3", $("#cuerno_3")).attr('style', "fill:#a5969c");
       //ESPALDA
-      $("#p3_1", $("#espalda_3")).attr('style', "fill:#c7bdd3");
-      $("#p3_3", $("#espalda_3")).attr('style', "fill:#c7bdd3");
+      $("#p3_1", $("#espalda_3")).attr('style', "fill:#a5969c");
+      $("#p3_3", $("#espalda_3")).attr('style', "fill:#a5969c");
       //COLA
-      $("#p4_1", $("#cola_3")).attr('style', "fill:#c7bdd3");
-      $("#p4_3", $("#cola_3")).attr('style', "fill:#c7bdd3");
+      $("#p4_1", $("#cola_3")).attr('style', "fill:#a5969c");
+      $("#p4_3", $("#cola_3")).attr('style', "fill:#a5969c");
       break;
     case "reptile":
       document.getElementById("axie3_" + axie3class).style.backgroundColor = "#fff";
